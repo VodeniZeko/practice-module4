@@ -1,13 +1,15 @@
 # practice-module4
 
 - npm init -y // creates empty file
-
-- npm i -D nodemon // devDependency only for local use
+- npm i -D nodemon // devDependency only for development
 - npm i helmet express knex sqlite3 cors // install all of the dependencies
+- npm i dotenv
 
-* npm i dotenv
 * create a file structure
 
 1. api folder with server.js
    2.data folder
    3.router folder with routes and model
+
+- set up json.file
+  server run and start run

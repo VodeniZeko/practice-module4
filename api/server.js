@@ -12,4 +12,13 @@ server.use(express.json());
 server.use(helmet());
 server.use(CORS());
 //bring in the router
-const characterRouter = require("../characters/charactersRouter");
+// const characterRouter = require("../characters/charactersRouter");
+
+// server.use("api/router",characterRouter );
+
+// if no route was given
+server.get("/", (req, res) => {
+  res.send(`<hi>we are good to go</hi>`);
+});
+
+module.exports = server;

@@ -13,3 +13,9 @@
 
 - set up json.file
   server run and start run
+
+* setup server (import dependecies and set routes as well as default get request )
+
+* setup index.js (import server.js file and set the port)
+
+- create tables with knex

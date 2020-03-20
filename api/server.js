@@ -16,7 +16,7 @@ server.use(CORS());
 
 // server.use("api/router",characterRouter );
 
-// if no route was given
+// get without routes
 server.get("/", (req, res) => {
   res.send(`<hi>we are good to go</hi>`);
 });
